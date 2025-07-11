@@ -210,3 +210,84 @@ main{
     margin-top:-30px;
     margin-bottom: 20px;
 }
+/* Contact Section Style */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-tittle{
+    font-size: 97px;
+}
+label{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+}
+input::placeholder {
+    font-size: 20px;
+    padding: 0 20px;
+    color: rgb(75, 70, 70);
+    opacity: 0.5;
+  }
+ .contact input[type="text"],[type="email"], textarea{
+    font-size: 20px;
+    color: rgb(75, 70, 70);
+      width:92%;
+      height: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 10px 40px 10px 10px;
+      border-radius: 10px;
+      border:1px solid #D6DDED;
+      
+  }
+ 
+.submit-btn{
+    color: #ffffff;
+    width: 100%;
+}
+.contact-tittle{
+    width: 50%;
+}
+.main-form{
+    width: 50%;
+}
+/* footer */
+footer{
+    padding: 120px 0 50px 0;
+    background-color: white;
+    border-top: 1px solid #b3b3b346;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+ul li{
+  
+    list-style: none;
+}
+ul li a{
+    color: #8987A1;
+    text-decoration: none;
+}
+ul li:hover a{
+    color: blue;
+}
+.footer-tittle{
+    color: blue;
+    font-size: 100px;
+    display: inline;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+}
+.footer-description{
+    
+    text-align: center;
+    color: #8987A1;
+    justify-content: center;
+    align-items: center;
+}
