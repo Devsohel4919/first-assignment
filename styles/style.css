@@ -263,8 +263,8 @@ footer{
 }
 ul{
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap:40px;
+    justify-content:center;
 }
 ul li{
   
