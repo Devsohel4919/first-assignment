@@ -8,6 +8,9 @@
  
 
   /* website Main css */
+  section{
+    margin: 0 0 120px 0;
+}
   .center{
       text-align: center;
   }
@@ -94,7 +97,7 @@ main{
     display:flex;
     align-items: center;
     justify-content: space-between;
-     padding: 90px 0px;
+     padding: 100px 0 0 0px;
 }
 
 .action-container img{
@@ -139,4 +142,53 @@ main{
     font-weight: 400;
     color: rgb( 37,36,50, .50);
     font-family: "Inter", sans-serif;
+}
+
+/* Testimonial seciton style */
+
+.reviews-items{
+    display:flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.review-item{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.50);
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.review-footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.review-footer img{
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+}
+.review-title{
+    font-size: 18px;
+    color: #1a1212d7;
+    margin-bottom: 10px;
+}
+.reivew-descriptin{
+    font-size: 16px;
+    line-height: 25px;
+}
+.reviewer-name{
+    display: inline;
+    font-size: 14px;
+    color: #757575;
+   
+}
+.reviewr-details{
+    margin-top: 7px;
+    display: inline;
+
+}
+.reviewer-position{
+    font-size: 12px;
+    color: #b3b3b3;
 }
