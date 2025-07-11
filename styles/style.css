@@ -8,8 +8,12 @@
  
 
   /* website Main css */
+  .center{
+      text-align: center;
+  }
   .section-tittle{
       font-size: 42px;
+      line-height: normal;
       color: #252432;
       font-weight: bold;
   }
@@ -75,19 +79,22 @@ nav{
 }
 
 /* main body section */
+body{
+    background-color:  #f5f8ff;
+}
 main{
-    background-color: #f5f8ff;
+    
+    max-width: 1140px;
+    margin:0 auto;
     font-family: "Raleway", sans-serif;
 }
 
 /* Action section style */
 .action-container{
-    display: flex;
-    max-width: 1140px;
-    justify-content: space-between;
+    display:flex;
     align-items: center;
-    margin: 0 auto;
-    padding: 90px 0;
+    justify-content: space-between;
+     padding: 90px 0px;
 }
 
 .action-container img{
@@ -95,12 +102,41 @@ main{
     align-items: flex-end;
 }
 .action-details{
-    width: 40%;
-   
+    width: 40%; 
 }
+
 .action-description{
     margin-top: -20px;
     font-size: 24px;
     font-weight: 400;
     color: rgb( 37,36,50, .50);
+}
+
+/* Productive users style */
+.productive-user{
+    background-color: rgb(229,231,255);
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.productive-items{
+    display:flex;
+    gap: 130px;
+    justify-content:space-around;
+}
+.productive-item{
+    text-align: center
+}
+
+.productive-item-tittle{
+    font-size: 80px;
+    display: inline;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+.productive-item-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb( 37,36,50, .50);
+    font-family: "Inter", sans-serif;
 }
