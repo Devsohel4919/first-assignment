@@ -192,3 +192,21 @@ main{
     font-size: 12px;
     color: #b3b3b3;
 }
+/* Focused section style */
+.focused-section{
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 70px 150px;
+    text-align: center;
+}
+.focused-section img{
+    margin-top: 30px;
+    border-radius: 48px;
+}
+.focused-tittle{
+    font-size: 50px;
+}
+.focused-description{
+    margin-top:-30px;
+    margin-bottom: 20px;
+}
